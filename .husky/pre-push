@@ -1,0 +1,14 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+JSONRESUME=$(cat resume.json)
+git remote remove gist
+git remote add gist git@gist.github.com:372a75d565e774859a11d84a4994522c.git
+git fetch gist main
+git branch -D gist
+git switch -c gist gist/main
+echo $JSONRESUME > resume.json
+git add resume.json
+git commit -m "Update resume from repository"
+git push
+git switch main
