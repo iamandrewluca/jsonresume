@@ -8,6 +8,7 @@ git fetch gist main
 git branch -D gist
 git switch -c gist gist/main
 echo $JSONRESUME > resume.json
+npx prettier --write resume.json
 git add resume.json
 git commit -m "Update resume from repository"
 git push
