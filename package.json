@@ -1,0 +1,31 @@
+{
+	"name": "jsonresume",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iamandrewluca/jsonresume.git"
+	},
+	"keywords": [],
+	"author": "Andrew Luca",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/iamandrewluca/jsonresume/issues"
+	},
+	"homepage": "https://github.com/iamandrewluca/jsonresume#readme",
+	"dependencies": {
+		"@allindevelopers/prettier-config": "^1.0.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.4.0",
+		"prettier": "^2.6.2"
+	},
+	"prettier": "@allindevelopers/prettier-config",
+	"lint-staged": {
+		"**/*": "npx prettier --write --ignore-path .gitignore --ignore-unknown"
+	}
+}
