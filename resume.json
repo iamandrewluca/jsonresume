@@ -1,3 +1,33 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json"
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"meta": {
+		"version": "1.0.0",
+		"lastModified": "2022-04-23",
+		"canonical": "https://raw.githubusercontent.com/iamandrewluca/jsonresume/main/resume.json"
+	},
+	"basics": {
+		"name": "Andrew Luca",
+		"email": "iamandrewluca@gmail.com",
+		"url": "https://iamandrewluca.com/",
+		"image": "https://gravatar.com/avatar/3d8d36a4c7e54969b9659a9f46d2f392?s=512",
+		"summary": "❤️ All In Developer",
+		"location": { "countryCode": "MD" },
+		"profiles": [
+			{
+				"network": "Twitter",
+				"url": "https://twitter.com/iamandrewluca",
+				"username": "iamandrewluca"
+			},
+			{
+				"network": "GitHub",
+				"url": "https://github.com/iamandrewluca",
+				"username": "iamandrewluca"
+			}
+		]
+	},
+	"languages": [
+		{ "language": "Romanian", "fluency": "Native Speaker" },
+		{ "language": "English", "fluency": "Fluent" },
+		{ "language": "Russian", "fluency": "Fluent" }
+	]
 }
